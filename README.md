@@ -11,7 +11,7 @@
 ```python
 from pencrypt import PEncrypt
 
-m = PEncrypt('Skilljam.png')
+m = PEncrypt('test.jpg')
 
 m.get_data()
 m.revert()
