@@ -1,4 +1,4 @@
-## PIencrypt
+## Piencrypt
 
 ### `pip install piencrypt`
 
