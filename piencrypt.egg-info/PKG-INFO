@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
-Name: iencrypt
-Version: 0.0.1
+Name: piencrypt
+Version: 0.0.5
 Summary: Encrypt your crucial data into Image file
 Home-page: UNKNOWN
 Author: Throttlerz (Siddhartha Roy)
@@ -18,9 +18,9 @@ Description-Content-Type: text/markdown
 License-File: LICENSE
 
 
-## IEncrypt
+## PiEncrypt
 
-### `pip install iencrypt`
+### `pip install piencrypt`
 
 > ### Encrypt your crucial data into Image file.
 
@@ -29,9 +29,9 @@ License-File: LICENSE
 ### Minimal app
 
 ```python
-from iencrypt import IEncrypt
+from piencrypt import PiEncrypt
 
-m = IEncrypt('test.jpg')
+m = PiEncrypt('test.jpg')
 
 m.get_data()
 m.revert()
@@ -50,7 +50,7 @@ print(read)
  #### Initialize and create a backup of the picture as bytes 
  
  ```python
-    p = IEncrypt('pic.jpg')
+    p = PiEncrypt('pic.jpg')
     
     p.get_data()
 ```
@@ -83,7 +83,7 @@ print(read)
 
 <br>
 
-https://pypi.org/project/IEncrypt/1.11/
+https://pypi.org/project/piencrypt/
 
 ## Repeat !
 

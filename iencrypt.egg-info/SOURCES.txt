@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-iencrypt.egg-info/PKG-INFO
-iencrypt.egg-info/SOURCES.txt
-iencrypt.egg-info/dependency_links.txt
-iencrypt.egg-info/top_level.txt
