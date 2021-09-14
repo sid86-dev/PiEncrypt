@@ -33,7 +33,7 @@ print(read)
 
     r.get_data()
 ```
-> *pic.jpg should be replaced by your picture name*
+> *pic.jpg should be replaced by your picture name present in the root directory*
 
 ### Step 2
 
