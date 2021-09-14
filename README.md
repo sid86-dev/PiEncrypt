@@ -9,16 +9,18 @@
 ### Minimal app
 
 ```python
-from piencrypt import PiEncrypt
+from piencrypt import pie
 
-m = PiEncrypt('test.jpg')
+r = pie.PiEncrypt('pic.png')
 
-m.get_data()
-m.revert()
+r.get_data()
 
-m.hide_data("Hello my name is SID")
+r.hide_data("Hello my name is Sid")
 
-read = m.read_data()
+read = r.read_data()
+
+r.revert()
+
 print(read)
 
 ```
@@ -30,9 +32,9 @@ print(read)
  #### Initialize and create a backup of the picture as bytes 
  
  ```python
-    p = PiEncrypt('pic.jpg')
-    
-    p.get_data()
+    r = pie.PiEncrypt('pic.png')
+
+    r.get_data()
 ```
 > *pic.jpg should be replaced by your picture name*
 
@@ -41,16 +43,17 @@ print(read)
 #### Hide the disired data into the picture 
  
  ```python
-    p.hide_data("Hello my name is SID")
+    r.hide_data("Hello my name is Sid")
 ```
 
 ### Step 3
 
  #### Read the hidden data from the picture
  
- ```python
-    read = p.read_data()
-    print(read)
+ ```python    
+   read = r.read_data()
+
+   print(read)
 ```
 
 ### Step 4
@@ -58,7 +61,7 @@ print(read)
  #### Revert the picture from the backup file
  
  ```python
-    p.revert()
+    r.revert()
 ```
 
 <br>
