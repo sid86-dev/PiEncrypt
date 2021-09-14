@@ -6,6 +6,25 @@
 
 <br>
 
+### Minimal app
+
+```python
+from pencrypt import PEncrypt
+
+m = PEncrypt('Skilljam.png')
+
+m.get_data()
+m.revert()
+
+m.hide_data("Hello my name is SID")
+
+read = m.read_data()
+print(read)
+
+```
+
+<br>
+
 ### Step 1
 
  #### Initialize and create a backup of the picture as bytes 
