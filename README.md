@@ -1,14 +1,14 @@
-# PEncrypt
+## PEncrypt
 
-## `pip install pencrypt`
+### `pip install pencrypt`
 
 > ### Encrypt your crucial data into Image file.
 
 <br>
 
-## Step 1
+### Step 1
 
- ### Initialize and create a backup of the picture as bytes 
+ #### Initialize and create a backup of the picture as bytes 
  
  ```python
     p = PEncryt('pic.jpg')
@@ -16,27 +16,31 @@
     p.get_data()
 ```
 
-## Step 2
+### Step 2
 
- ### Hide the disired data into the picture 
+#### Hide the disired data into the picture 
  
  ```python
     p.hide_data("Hello my name is SID")
 ```
 
-## Step 3
+### Step 3
 
- ### Read the hidden data from the picture
+ #### Read the hidden data from the picture
  
  ```python
     read = p.read_data()
     print(read)
 ```
 
-## Step 4
+### Step 4
 
- ### Revert the picture from the backup file
+ #### Revert the picture from the backup file
  
  ```python
     p.revert()
 ```
+
+<br>
+
+## Repeat !
