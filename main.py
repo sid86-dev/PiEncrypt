@@ -11,7 +11,7 @@ def process_pic():
 
 def hide_data():
     with open('new.jpg', 'ab') as f:
-        f.write(b"HEREPassword = Siddharth8604")
+        f.write(b"HEREHello World")
         
 
 def read_data():
@@ -28,5 +28,5 @@ def read_data():
 if __name__ == '__main__':
     # process_pic()
     # get_binary()
-    # hide_data()
+    hide_data()
     read_data()
