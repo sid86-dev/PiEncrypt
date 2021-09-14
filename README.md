@@ -11,7 +11,7 @@
  #### Initialize and create a backup of the picture as bytes 
  
  ```python
-    p = PEncryt('pic.jpg')
+    p = PEncrypt('pic.jpg')
     
     p.get_data()
 ```
