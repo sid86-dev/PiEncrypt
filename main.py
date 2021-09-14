@@ -1,32 +1,40 @@
-def get_binary():
-    with open('sidlogo.jpg', 'rb') as f, open('binary.txt', 'wb') as b:
-        r = f.read()
-        b.write(r)
 
-def process_pic():
-    with open('binary.txt', 'rb') as f, open('new.jpg', 'wb') as e:
-        r = f.read()
-        e.write(r)
+class PEncryt:
 
+    def __init__(self, loc):
+        self.loc = loc
+      
+    # save the data of the picture as bytes 
+    def get_data(self):
+        with open(self.loc , 'rb') as f, open('binary.txt', 'wb') as b:
+            r = f.read()
+            b.write(r)
 
-def hide_data():
-    with open('new.jpg', 'ab') as f:
-        f.write(b"HEREHello World")
-        
+    # hides the disired data into the picture 
+    def hide_data(self, data):
+        self.data = data
+        with open(self.loc, 'ab') as f:
+            f.write(bytes("HERE" + self.data , encoding="ascii"))
 
-def read_data():
-    with open('new.jpg', 'rb') as f:
-        content = f.read()
-        # offset = content.index(bytes.fromhex('FFD9'))
+    # read the hidden data from the picture
+    def read_data(self):
+        with open(self.loc, 'rb') as f:
+            content = f.read()
+            list = content.split(b'HERE')
+            # print(f.read())
+            return list[1].decode("utf-8")
 
-        # f.seek(offset + 2)
-        list = content.split(b'HERE')
-        # print(f.read())
-        print(list[1].decode("utf-8") )
-
+    # revert the picture from the backup bytes file
+    def revert(self):
+        with open('binary.txt', 'rb') as f, open(self.loc, 'wb') as e:
+            r = f.read()
+            e.write(r)
 
 if __name__ == '__main__':
-    # process_pic()
-    # get_binary()
-    hide_data()
-    read_data()
+
+    p = PEncryt('pic.jpg')
+    # p.get_data()
+    p.revert()
+    p.hide_data("Hello my name is SID")
+    r = p.read_data()
+    print(r)
