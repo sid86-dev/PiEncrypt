@@ -1,6 +1,6 @@
-## PEncrypt
+## PIencrypt
 
-### `pip install pencrypt`
+### `pip install piencrypt`
 
 > ### Encrypt your crucial data into Image file.
 
@@ -9,9 +9,9 @@
 ### Minimal app
 
 ```python
-from pencrypt import PEncrypt
+from piencrypt import PiEncrypt
 
-m = PEncrypt('test.jpg')
+m = PiEncrypt('test.jpg')
 
 m.get_data()
 m.revert()
@@ -30,7 +30,7 @@ print(read)
  #### Initialize and create a backup of the picture as bytes 
  
  ```python
-    p = PEncrypt('pic.jpg')
+    p = PiEncrypt('pic.jpg')
     
     p.get_data()
 ```
@@ -63,6 +63,6 @@ print(read)
 
 <br>
 
-https://pypi.org/project/pencrypt/1.11/
+https://pypi.org/project/piencrypt/1.11/
 
 ## Repeat !

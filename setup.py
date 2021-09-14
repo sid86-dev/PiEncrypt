@@ -7,13 +7,13 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '1.011'
+VERSION = '0.0.01'
 DESCRIPTION = 'Encrypt your crucial data into Image file'
 LONG_DESCRIPTION = 'A package that allows to hide and read crucial data from Image files.'
 
 # Setting up
 setup(
-    name="pencrypt",
+    name="iencrypt",
     version=VERSION,
     author="Throttlerz (Siddhartha Roy)",
     author_email="<sid86harth@gmail.com>",
