@@ -63,6 +63,6 @@ print(read)
 
 <br>
 
-https://pypi.org/project/piencrypt/1.11/
+https://pypi.org/project/piencrypt/
 
 ## Repeat !
