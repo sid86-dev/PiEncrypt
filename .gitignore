@@ -2,3 +2,4 @@ __pycache__/
 piencrypt.egg-info/
 web/
 piencrypt/__pycache__/
+.requirements.txt
