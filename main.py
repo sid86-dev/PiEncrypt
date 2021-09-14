@@ -32,9 +32,9 @@ class PiEncrypt:
 
 if __name__ == '__main__':
 
-    p = PiEncrypt('pic.jpg')
-    p.get_data()
+    p = PiEncrypt('test.png')
+    # p.get_data()
     p.revert()
-    p.hide_data("Hello my name is SID")
+    p.hide_data("Hello my name is Sid")
     r = p.read_data()
     print(r)
