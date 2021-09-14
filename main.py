@@ -1,4 +1,3 @@
-
 class PiEncrypt:
 
     def __init__(self, loc):
