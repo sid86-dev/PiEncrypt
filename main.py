@@ -33,7 +33,7 @@ class PEncryt:
 if __name__ == '__main__':
 
     p = PEncryt('pic.jpg')
-    # p.get_data()
+    p.get_data()
     p.revert()
     p.hide_data("Hello my name is SID")
     r = p.read_data()

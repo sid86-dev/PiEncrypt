@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pencrypt.egg-info/PKG-INFO
+pencrypt.egg-info/SOURCES.txt
+pencrypt.egg-info/dependency_links.txt
+pencrypt.egg-info/top_level.txt
