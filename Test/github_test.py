@@ -9,6 +9,7 @@ URL = "https://piencrypt.herokuapp.com/test/sid86"
 # sending get request and saving the response as response object
 r = requests.get(url = URL)
 
+
 data = r.json()
 
 secret_code = data['PiEncrypt']
