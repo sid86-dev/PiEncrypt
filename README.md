@@ -2,6 +2,7 @@
 
 [![Pie Test](https://github.com/sid86-dev/PiEncrypt/actions/workflows/python-app.yml/badge.svg)](https://github.com/sid86-dev/PiEncrypt/actions/workflows/python-app.yml)
 [![DevSkim](https://github.com/sid86-dev/PiEncrypt/actions/workflows/devskim-analysis.yml/badge.svg)](https://github.com/sid86-dev/PiEncrypt/actions/workflows/devskim-analysis.yml)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/piencrypt)
 
 ### `pip install piencrypt`
 
