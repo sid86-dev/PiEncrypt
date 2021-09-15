@@ -6,3 +6,4 @@ Helper/
 Test/__pycache__/
 Test/data.py
 build/
+Script/test.sh
