@@ -5,3 +5,4 @@ piencrypt/__pycache__/
 Helper/
 Test/__pycache__/
 Test/data.py
+build/
