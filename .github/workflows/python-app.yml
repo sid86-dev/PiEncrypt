@@ -31,10 +31,11 @@ jobs:
       - name: Display Python version
         run: python -c "import sys; print(sys.version)"
         # Install the package using the setup.py
-      - name: Install piencrypt
+      - name: Install Modules
         run: |
           python -m pip install --upgrade pip
           pip install piencrypt
+          pip install requests
         # Run the tests. I'm using pytest and the file is in the tests directory.
 #       - name: Clean temp directory
 #         run: rm -rf *
