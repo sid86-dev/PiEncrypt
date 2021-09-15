@@ -3,7 +3,7 @@ from piencrypt import pie
 import requests
   
 # api-endpoint
-URL = "http://127.0.0.1:4000/test/sid86"
+URL = "https://piencrypt.herokuapp.com/test/sid86"
   
   
 # sending get request and saving the response as response object

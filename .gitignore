@@ -1,6 +1,6 @@
 __pycache__/
 piencrypt.egg-info/
-web/
+web/data.py
 piencrypt/__pycache__/
 Helper/
 Test/__pycache__/
