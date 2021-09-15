@@ -1,3 +1,5 @@
+SECONDS=0
+# declare initial seconds
 clear
 cd ..
 echo "piencrypt: -----> Starting Pie Test..";
@@ -19,7 +21,11 @@ echo "piencrypt: -----> Commit completed";
 echo -en '\n';
 git push heroku master;
 echo -en '\n';
-echo '---------------------------------------------'
+echo "..";
+echo '----------------------------------------------------------------------';
 echo "piencrypt: -----> Deployment Successfull";
 echo -en '\n';
+# get elapsed time
+duration=$SECONDS
+echo "$(($duration / 60)) minutes and $(($duration % 60)) seconds elapsed."
 cd ..
