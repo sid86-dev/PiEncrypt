@@ -3,3 +3,4 @@ piencrypt.egg-info/
 web/
 piencrypt/__pycache__/
 Helper/
+Test/__pycache__/
