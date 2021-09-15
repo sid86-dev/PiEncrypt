@@ -2,7 +2,7 @@ clear
 cd ..
 echo "Starting Pie Test..";
 cd Test
-python pie_test.py;
+python pie_test.py; 
 echo "Test completed"
 cd ..
 cd web
