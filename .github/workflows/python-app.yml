@@ -36,8 +36,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install piencrypt
         # Run the tests. I'm using pytest and the file is in the tests directory.
-      - name: Clean temp directory
-        run: rm -rf *
-        working-directory: ./Test
+#       - name: Clean temp directory
+#         run: rm -rf *
+#         working-directory: ./Test
       - name: Run tests
         run: python Test/pie_test.py
