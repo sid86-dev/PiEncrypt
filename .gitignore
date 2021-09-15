@@ -2,5 +2,5 @@ __pycache__/
 piencrypt.egg-info/
 web/
 piencrypt/__pycache__/
-*.steps.txt
+*.steps.txt~
 *.requirements.txt
