@@ -1,13 +1,13 @@
 clear
 cd ..
-echo "Starting Pie Test..";
+echo "piencrypt: -----> Starting Pie Test..";
 cd Test
 python pie_test.py; 
-echo "Test completed"
+echo "piencrypt: -----> Test completed"
 cd ..
-echo "Tracking files..";
+echo "piencrypt: -----> Tracking files..";
 git add .;
 git commit -m "piencrypt shell scripts";
-echo "Commit completed";
+echo "piencrypt: -----> Commit completed";
 git push origin master;
-echo "Push Successfull";
+echo "piencrypt: -----> Push Successfull";

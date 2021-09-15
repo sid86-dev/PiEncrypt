@@ -1,13 +1,13 @@
 #build package and push it to pypi
 clear
 cd ..
-echo "Starting Pie Test..";
+echo "piencrypt: -----> Starting Pie Test..";
 cd Test
 python pie_test.py;
-echo "Test completed"
+echo "piencrypt: -----> Test completed"
 cd ..
-echo "Starting package build...";
+echo "piencrypt: -----> Starting package build...";
 python setup.py sdist bdist_wheel;
 twine upload dist/*;
-echo "Upload Successfull";
+echo "piencrypt: -----> Upload Successfull";
 # cat build.sh

@@ -1,15 +1,15 @@
 clear
 cd ..
-echo "Starting Pie Test..";
+echo "piencrypt: -----> Starting Pie Test..";
 cd Test
 python pie_test.py; 
-echo "Test completed"
+echo "piencrypt: -----> Test completed"
 cd ..
 cd web
-echo "Tracking files..";
+echo "piencrypt: -----> Tracking files..";
 git add .;
 git commit -m "piencrypt webapp";
-echo "Commit completed";
+echo "piencrypt: -----> Commit completed";
 git push heroku master;
-echo "Deployment Successfull";
+echo "piencrypt: -----> Deployment Successfull";
 cd ..
