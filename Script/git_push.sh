@@ -16,7 +16,7 @@ echo "piencrypt: -----> Tracking files..";
 echo -en '\n';
 git add .;
 echo -en '\n';
-git commit -m "web bugfix";
+git commit -m "Symmetric encryption";
 echo -en '\n';
 echo "piencrypt: -----> Commit completed";
 echo -en '\n';

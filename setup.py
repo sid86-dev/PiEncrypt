@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.7.3.8'
+VERSION = '0.7.5.6'
 DESCRIPTION = 'Encrypt your crucial data into Image file'
 LONG_DESCRIPTION = 'A package that allows to hide and read crucial data from Image files.'
 
@@ -21,7 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=long_description,
     packages=find_packages(),
-    install_requires=[],
+    install_requires=['cryptography'],
     keywords=['python', 'image processing', 'encrypt',
               'decrypt', 'hide messages', 'data store'],
     classifiers=[
