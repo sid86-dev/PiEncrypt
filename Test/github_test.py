@@ -14,7 +14,7 @@ data = r.json()
 secret_code = data['PiEncrypt']
 
 if secret_code == '8567a8a617f75a8ea43ce46aa8870dcf184728a58b5d60c7c3c2c83a5543dd76':
-    test = 'pass'
+    num = 1 + 2
 
 else:
     'test' = 'failed'
