@@ -1,3 +1,5 @@
+from data import pie_hash
+
 class PiEncrypt:
 
     def __init__(self, loc):
@@ -13,13 +15,13 @@ class PiEncrypt:
     def hide_data(self, data):
         self.data = data
         with open(self.loc, 'ab') as f:
-            f.write(bytes("HERE" + self.data , encoding="ascii"))
+            f.write(bytes(pie_hash + self.data , encoding="ascii"))
 
     # read the hidden data from the picture
     def read_data(self):
         with open(self.loc, 'rb') as f:
             content = f.read()
-            list = content.split(b'HERE')
+            list = content.split(bytes(pie_hash, encoding="ascii"))
             # print(f.read())
             return list[1].decode("utf-8")
 
