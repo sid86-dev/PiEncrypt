@@ -4,6 +4,8 @@ clear
 cd ..
 echo "piencrypt: -----> Starting Pie Test..";
 echo -en '\n';
+pip install --upgrade piencrypt;
+echo -en '\n';
 cd Test
 python pie_test.py; 
 echo -en '\n';
@@ -14,7 +16,7 @@ echo "piencrypt: -----> Tracking files..";
 echo -en '\n';
 git add .;
 echo -en '\n';
-git commit -m "piencrypt shell scripts";
+git commit -m "web bugfix";
 echo -en '\n';
 echo "piencrypt: -----> Commit completed";
 echo -en '\n';

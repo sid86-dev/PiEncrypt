@@ -4,6 +4,8 @@ clear
 cd ..
 echo "piencrypt: -----> Starting Pie Test..";
 echo -en '\n';
+pip install --upgrade piencrypt;
+echo -en '\n';
 cd Test
 python pie_test.py; 
 echo -en '\n';

@@ -5,6 +5,8 @@ clear
 cd ..
 echo "piencrypt: -----> Starting Pie Test..";
 echo -en '\n';
+pip install --upgrade piencrypt;
+echo -en '\n';
 cd Test
 python pie_test.py;
 echo -en '\n';
@@ -17,7 +19,7 @@ python setup.py sdist bdist_wheel;
 echo -en '\n';
 echo "piencrypt: -----> Build successfull"
 echo -en '\n';
-twine upload dist/*;
+twine upload dist/*
 echo -en '\n';
 echo "..";
 echo '----------------------------------------------------------------------';

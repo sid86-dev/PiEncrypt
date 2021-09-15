@@ -7,7 +7,7 @@ class PiEncrypt:
       
     # save the data of the picture as bytes 
     def get_data(self):
-        with open(self.loc , 'rb') as f, open('binary.txt', 'wb') as b:
+        with open(self.loc , 'rb') as f, open('backup.txt', 'wb') as b:
             r = f.read()
             b.write(r)
 
@@ -27,7 +27,7 @@ class PiEncrypt:
 
     # revert the picture from the backup bytes file
     def revert(self):
-        with open('binary.txt', 'rb') as f, open(self.loc, 'wb') as e:
+        with open('backup.txt', 'rb') as f, open(self.loc, 'wb') as e:
             r = f.read()
             e.write(r)
 

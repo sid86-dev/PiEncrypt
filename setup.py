@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.7.2.8'
+VERSION = '0.7.3.8'
 DESCRIPTION = 'Encrypt your crucial data into Image file'
 LONG_DESCRIPTION = 'A package that allows to hide and read crucial data from Image files.'
 
