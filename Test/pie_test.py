@@ -2,7 +2,6 @@
 from piencrypt import pie
 import random
 import unittest
-import os
 
 
 Texts = ['Hi', 'Solo', 'Sid', 'Test', 'Lily', 'Python', 'Throttlerz', 'Password', 'Good Morning', 'Good Evening']   
