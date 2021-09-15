@@ -40,4 +40,4 @@ jobs:
         run: rm -rf *
         working-directory: ./Test
       - name: Run tests
-        run: python Test/pie_test*
+        run: python Test/pie_test.py
