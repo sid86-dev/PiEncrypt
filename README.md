@@ -26,7 +26,7 @@ print(read)
 
 <br>
 
-### Step 1
+<!-- ### Step 1 -->
 
  #### Initialize and create a backup of the picture as bytes 
  
@@ -37,7 +37,9 @@ print(read)
 ```
 > *pic.jpg should be replaced by your picture name present in the root directory*
 
-### Step 2
+<br>
+
+<!-- ### Step 2 -->
 
 #### Hide the disired data into the picture 
  
@@ -45,7 +47,9 @@ print(read)
     r.hide_data("Hello my name is Sid")
 ```
 
-### Step 3
+<br>
+
+<!-- ### Step 3 -->
 
  #### Read the hidden data from the picture
  
@@ -54,8 +58,9 @@ print(read)
 
    print(read)
 ```
+<br>
 
-### Step 4
+<!-- ### Step 4 -->
 
  #### Revert the picture from the backup file
  
