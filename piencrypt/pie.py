@@ -1,4 +1,4 @@
-from data import pie_hash
+pie_hash = '03c1d04aeffd72151933b2295df5b484547e00ead9d001126aef03e6179a9332'
 
 class PiEncrypt:
 
