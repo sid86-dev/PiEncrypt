@@ -1,5 +1,7 @@
 ## PiEncrypt
 
+[![Pie Test](https://github.com/sid86-dev/PiEncrypt/actions/workflows/python-app.yml/badge.svg)](https://github.com/sid86-dev/PiEncrypt/actions/workflows/python-app.yml)
+
 ### `pip install piencrypt`
 
 > ### Encrypt your crucial data into Image file.
