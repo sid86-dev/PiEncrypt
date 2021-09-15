@@ -1,4 +1,5 @@
-from pie_clone import PiEncrypt
+# from pie_clone import PiEncrypt
+from piencrypt import pie
 import random
 import unittest
 
@@ -14,7 +15,7 @@ class TestClac(unittest.TestCase):
                     data.append(r)   
                 input = ", ".join(data) 
                 try:
-                    r = PiEncrypt('pic.png')
+                    r = pie.PiEncrypt('pic.png')
                     r.get_data()
                     r.hide_data(input)
                     output = r.read_data()
@@ -34,7 +35,7 @@ class TestClac(unittest.TestCase):
                 input = ", ".join(data)
 
                 try:
-                    r = PiEncrypt('pic.png')
+                    r = pie.PiEncrypt('pic.png')
                     r.get_data()
                     r.hide_data(input)
                     output = r.read_data()
@@ -53,7 +54,7 @@ def infile_test():
   
         input = ", ".join(data)
         try:
-            r = PiEncrypt('pic.png')
+            r = pie.PiEncrypt('pic.png')
             r.get_data()
             r.hide_data(input)
             output = r.read_data()
