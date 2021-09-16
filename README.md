@@ -4,7 +4,11 @@
 [![DevSkim](https://github.com/sid86-dev/PiEncrypt/actions/workflows/devskim-analysis.yml/badge.svg)](https://github.com/sid86-dev/PiEncrypt/actions/workflows/devskim-analysis.yml)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/piencrypt)
 
-### `pip install piencrypt`
+ 
+## `pip install piencrypt`
+ 
+
+<br>
 
 > ### Encrypt your crucial data into Image file.
 
