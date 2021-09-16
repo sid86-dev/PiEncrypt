@@ -16,7 +16,9 @@ echo "piencrypt: -----> Tracking files..";
 echo -en '\n';
 git add .;
 echo -en '\n';
-git commit -m "Symmetric encryption";
+echo "Enter the push reason: ";
+read push_type
+git commit -m "$push_type";
 echo -en '\n';
 echo "piencrypt: -----> Commit completed";
 echo -en '\n';
