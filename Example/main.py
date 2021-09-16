@@ -7,7 +7,6 @@ r.get_data()
 r.hide_data("Hello my name Sid")
 
 read = r.read_data()
-
 print(read)
 
 r.revert()

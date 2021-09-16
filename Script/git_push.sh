@@ -16,8 +16,7 @@ echo "piencrypt: -----> Tracking files..";
 echo -en '\n';
 git add .;
 echo -en '\n';
-echo "Enter the push reason: ";
-read push_type
+read -p "Enter the push reason: " push_type
 git commit -m "$push_type";
 echo -en '\n';
 echo "piencrypt: -----> Commit completed";
