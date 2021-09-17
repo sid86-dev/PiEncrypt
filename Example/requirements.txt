@@ -1,1 +1,1 @@
-piencrypt==0.6.8.5
+piencrypt==0.7.5.6
