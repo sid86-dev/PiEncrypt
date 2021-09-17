@@ -4,7 +4,7 @@ r = pie.PiEncrypt('pic.png')
 
 r.get_data()
 
-r.hide_data("Hello my name Sid")
+r.hide_data("Hello my name sid")
 
 read = r.read_data()
 print(read)
