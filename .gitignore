@@ -5,6 +5,6 @@ piencrypt/__pycache__/
 Helper/
 Test/__pycache__/
 Test/data.py
-build/
+# build/
 Script/test.sh
-web/
+# web/
