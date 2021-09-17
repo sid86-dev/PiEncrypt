@@ -8,3 +8,6 @@ Test/data.py
 build/
 Script/test.sh
 web/
+dist/
+Script/
+.pytest_cache/
