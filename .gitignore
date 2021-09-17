@@ -1,9 +1,10 @@
 __pycache__/
-piencrypt.egg-info/
+# piencrypt.egg-info/
 web/data.py
 piencrypt/__pycache__/
-Helper/
+# Helper/
 Test/__pycache__/
 Test/data.py
-build/
+# build/
 Script/test.sh
+# web/

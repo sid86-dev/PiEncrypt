@@ -1,0 +1,5 @@
+build setup : python setup.py sdist bdist_wheel
+
+upload : twine upload dist/*
+
+untrack files : git rm --cached piencrypt -r
