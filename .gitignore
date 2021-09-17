@@ -8,3 +8,4 @@ Test/data.py
 # build/
 Script/test.sh
 # web/
+.pytest_cache/
