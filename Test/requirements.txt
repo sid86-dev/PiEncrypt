@@ -1,4 +1,4 @@
-﻿atomicwrites==1.4.0
+atomicwrites==1.4.0
 attrs==21.2.0
 bleach==4.1.0
 certifi==2022.12.7
@@ -28,6 +28,6 @@ toml==0.10.2
 tqdm==4.62.2
 twine==3.4.2
 typing-extensions==3.10.0.2
-urllib3==1.26.6
+urllib3==1.26.18
 webencodings==0.5.1
 zipp==3.5.0
